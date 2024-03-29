@@ -1,0 +1,15 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--color-light-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.foot-icon {
+    font-size: 25px;
+    color: var(--color-charcoal);
+}

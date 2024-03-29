@@ -13,5 +13,9 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 351px 0px 351px;
+    padding: 17px 351px 17px 351px;
+}
+
+.intro > section {
+    max-width: 660px;
 }
