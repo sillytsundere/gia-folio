@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 33px 40px;
+    margin: 0;
+    color: var(--color-charcoal);
+}
+
+.home-link {
+    color: var(--color-charcoal);
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item {
+    margin: 0 15px 0 15px;
+    color: var(--color-charcoal);
+}
+
+.nav-icon {
+    margin-left: 15px;
+    height: 20px;
+}
+
+.icon {
+    font-size: 20px;
+    color: var(--color-charcoal);
+}

@@ -7,6 +7,7 @@ import "./index.css";
 
 import Home from "./pages/Home.jsx"
 import Work from "./pages/Work.jsx"
+import ProjectPage from "./pages/ProjectPage.jsx"
 
 // Define accessible routes and which components lin to which url
 const routes = [
