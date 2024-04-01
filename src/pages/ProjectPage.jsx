@@ -2,6 +2,9 @@ import React from "react"
 import { useParams } from "react-router-dom"
 
 // import project pages/components
+import ProjectPage1 from '../components/ProjectPage1';
+import ProjectPage2 from '../components/ProjectPage2';
+import NotFoundPage from './NotFoundPage';
 
 const ProjectPage = () => {
     const { projectName } = useParams();
@@ -14,8 +17,7 @@ const ProjectPage = () => {
     };
 
     // Render corresponding project component (or not found page if not found)
-    return projectComponents[projectName];
-    // || <NotFoundPage />;
+    return projectComponents[projectName] || <NotFoundPage />;
 }
 
 export default ProjectPage;

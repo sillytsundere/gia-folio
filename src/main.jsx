@@ -5,11 +5,11 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
 
-import Home from "./pages/Home.jsx"
-import Work from "./pages/Work.jsx"
-import ProjectPage from "./pages/ProjectPage.jsx"
+import Home from "./pages/Home.jsx";
+import Work from "./pages/Work.jsx";
+import ProjectPage from "./pages/ProjectPage.jsx";
 
-// Define accessible routes and which components lin to which url
+// Define accessible routes and which components link to which url
 const routes = [
   {
     path: "/",
@@ -22,11 +22,13 @@ const routes = [
       {
         path: "/work",
         element: <Work />,
+        children: [
+          {
+            path: ":projectName",
+            element: <ProjectPage />,
+          }
+        ]
       },
-      {
-        path: "/work/:projectName",
-        element: <ProjectPage />,
-      }
     ],
   },
 ];
