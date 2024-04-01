@@ -11,9 +11,7 @@ export default function Home() {
           complex concepts into compelling and clear visual narratives.
         </p>
       </section>
-      <main>
-        <Link to="/work/project1">Project 1</Link>
-      </main>
+      <p>Click <Link to="/work">here</Link> to see my work</p>
     </div>
   );
 }
