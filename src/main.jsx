@@ -8,6 +8,7 @@ import "./index.css";
 import Home from "./pages/Home.jsx";
 import Work from "./pages/Work.jsx";
 import ProjectPage from "./pages/ProjectPage.jsx";
+import Resume from "./pages/Resume.jsx";
 
 // Define accessible routes and which components link to which url
 const routes = [
@@ -29,6 +30,10 @@ const routes = [
           }
         ]
       },
+      {
+        path: "/resume",
+        element: <Resume />,
+      }
     ],
   },
 ];

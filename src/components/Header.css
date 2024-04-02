@@ -24,6 +24,10 @@
     color: var(--color-charcoal);
 }
 
+.nav-item.active {
+    text-decoration: underline;
+}
+
 .nav-icon {
     margin-left: 15px;
     height: 20px;
