@@ -15,10 +15,12 @@ export default function Header() {
         </Link>
       </div>
       <div className="nav-links">
-        <Link to="/work" className={`nav-item ${isWorkPage ? 'active' : ''}`}>
+        <Link to="/work" className={`nav-item ${isWorkPage ? "active" : ""}`}>
           Work
         </Link>
-        <Link to="/resume" target="_blank" className="nav-item">Resume</Link>
+        <Link to="/resume" target="_blank" className="nav-item">
+          Resume
+        </Link>
         <a
           href="https://www.linkedin.com/in/julialpasquarella/"
           target="_blank"
