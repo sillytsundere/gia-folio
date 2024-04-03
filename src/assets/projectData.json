@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Sales Pitch Design Deck",
+        "coverPhoto": "src/assets/images/Sales-Deck-Cover-Photo.png"
+    },
+    {
+        "name": "Event Booth and Collateral Design",
+        "coverPhoto": "./images/event-booth-and-collateral-design-cover-photo.png"
+    }
+]

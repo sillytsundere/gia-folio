@@ -1,6 +1,15 @@
 import React from 'react';
 import { Outlet, Link, useLocation } from "react-router-dom";
+import projectData from "../assets/projectData.json"
 
+function ProjectLink({ name, coverPhoto }) {
+    return (
+        <div>
+            <img src={coverPhoto} alt={name}/>
+            <Link to={`/work/${name}`}>{name}</Link>
+        </div>    
+    )
+}
 
 export default function Work() {
     const location = useLocation();
@@ -12,8 +21,9 @@ export default function Work() {
             {isWorkPage ? (
                 <main>
                 <p>Hello from the /Work page!</p>
-                <Link to="/work/project1">Project 1</Link>
-                <Link to="/work/project2">Project 2</Link>
+                {projectData.map((project) => (
+                    <ProjectLink name={project.name} coverPhoto={project.coverPhoto} key={project.name}/>
+                ))}
                 </main>
             ) : (
                 <Outlet /> 
