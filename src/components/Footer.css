@@ -2,7 +2,7 @@
     /* position: fixed; */
     bottom: 0;
     width: 100%;
-    background-color: var(--color-light-green);
+    background-color: var(--color-bg-alt);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,5 +11,5 @@
 
 .foot-icon {
     font-size: 25px;
-    color: var(--color-charcoal);
+    color: var(--color-text);
 }

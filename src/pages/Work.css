@@ -1,0 +1,21 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    width: 33%;
+    height: 33%;
+}
+
+.card-image {
+    height: 100%;
+    width: 100%;
+}
+
+.card > a {
+    color: var(--color-text);
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+}

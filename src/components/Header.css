@@ -6,11 +6,11 @@
   font-size: 16px;
   padding: 33px 40px;
   margin: 0;
-  color: var(--color-charcoal);
+  color: var(--color-text);
 }
 
 .home-link {
-  color: var(--color-charcoal);
+  color: var(--color-text);
 }
 
 .nav-links {
@@ -21,7 +21,7 @@
 
 .nav-item {
   margin: 0 15px 0 15px;
-  color: var(--color-charcoal);
+  color: var(--color-text);
 }
 
 .nav-item.active {
@@ -35,5 +35,5 @@
 
 .icon {
   font-size: 20px;
-  color: var(--color-charcoal);
+  color: var(--color-text);
 }
