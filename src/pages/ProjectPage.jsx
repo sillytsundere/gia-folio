@@ -9,20 +9,20 @@ import ProjectPage2 from '../components/ProjectPage2';
 import NotFoundPage from './NotFoundPage';
 
 const ProjectPage = () => {
-    const { projectName } = useParams();
+    const { projectURL } = useParams();
 
     //see if project exists
-    const projectExists = projectData.find(project => project.name === projectName);
+    const projectExists = projectData.find(project => project.url === projectURL);
 
     // Map project names to their respective components
     const projectComponents = {
-        [projectData[0].name]: <ProjectPage1 />,
-        [projectData[1].name]: <ProjectPage1 />,
+        [projectData[0].url]: <ProjectPage1 />,
+        [projectData[1].url]: <ProjectPage2 />,
         //Can add more and as needed
     };
 
     // Render corresponding project component (or not found page if not found)
-    return projectExists ? projectComponents[projectName] : <NotFoundPage />;
+    return projectExists ? projectComponents[projectURL] : <NotFoundPage />;
 }
 
 export default ProjectPage;

@@ -1,6 +1,7 @@
 [
     {
         "name": "Sales Pitch Design Deck",
+        "url": "sales-pitch-design-deck",
         "coverPhoto": "src/assets/images/Sales-Deck-Cover-Photo.png",
         "overview": "Enthought needed to create a standard presentation to use in sales conversations with new potential clients, as a part of an effort to standardize sales processes.",
         "type": "Corporate Presentation Design, Informational Design, Graphic Design",
@@ -8,6 +9,7 @@
     },
     {
         "name": "Event Booth and Collateral Design",
+        "url": "event-booth-and-collateral-design",
         "coverPhoto": "src/assets/images/event-booth-and-collateral-design-cover-photo.png",
         "overview": "The Materials Science team at Enthought wanted to showcase three new AI solutions at an upcoming trade show they were attending. <br></br> I designed the booth display, brochures for each of the solutions, and banners for promotional emails, and social media posts.",
         "type": "Trade Show Booth Design, Brochure Design, Print Design, Social Media Banner Design",

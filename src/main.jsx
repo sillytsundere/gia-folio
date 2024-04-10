@@ -25,7 +25,7 @@ const routes = [
         element: <Work />,
         children: [
           {
-            path: ":projectName",
+            path: ":projectURL",
             element: <ProjectPage />,
           }
         ]
