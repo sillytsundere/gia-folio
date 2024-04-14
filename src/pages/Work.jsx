@@ -5,14 +5,14 @@ import "./Work.css";
 
 function ProjectLink({ url, name, coverPhoto }) {
     return (
-        <div className="card">
+        <figure className="card">
             <Link to={`/work/${url}`}>
                 <div className="img-container">
                     <img src={coverPhoto} alt={name} className="card-image" />
                 </div>
-                <p className="link-text">{name}</p>
+                <figcaption className="link-text">{name}</figcaption>
             </Link>
-        </div>    
+        </figure>    
     )
 }
 

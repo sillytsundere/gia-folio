@@ -16,8 +16,8 @@ const ProjectPage = () => {
 
     // Map project names to their respective components
     const projectComponents = {
-        [projectData[0].url]: <ProjectPage1 />,
-        [projectData[1].url]: <ProjectPage2 />,
+        [projectData[0].url]: <ProjectPage1 projectData={projectData[0]}/>,
+        [projectData[1].url]: <ProjectPage1 projectData={projectData[1]}/>,
         //Can add more and as needed
     };
 

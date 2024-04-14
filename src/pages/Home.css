@@ -12,10 +12,13 @@ p {
 .intro {
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 17px 351px 17px 351px;
 }
 
 .intro > section {
     max-width: 660px;
+}
+
+.info {
+    text-align: center;
 }
