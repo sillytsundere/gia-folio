@@ -11,11 +11,13 @@ function App() {
   const isResumePage = location.pathname === "/resume";
 
   return (
-    <>
+    <div className="min-h-screen">
       {!isResumePage && <Header />}
+      <div >
       <Outlet />
+      </div>
       {!isResumePage && <Footer />}
-    </>
+    </div>
   );
 }
 
