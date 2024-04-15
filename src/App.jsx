@@ -13,9 +13,7 @@ function App() {
   return (
     <div className="min-h-screen">
       {!isResumePage && <Header />}
-      <div >
       <Outlet />
-      </div>
       {!isResumePage && <Footer />}
     </div>
   );
