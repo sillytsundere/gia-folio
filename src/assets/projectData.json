@@ -16,6 +16,11 @@
             {"image": "src/assets/images/sales-deck/7-Sales-deck-sketch-3.png"},
             {"image": "src/assets/images/sales-deck/8-Slide4(1).png",
             "caption": "I came up with the idea for this slide and did the low fidelity sketches, but the final slide was designed by Killer Visual Strategies"}
+        ],
+        "slides": [
+            "src/assets/images/sales-deck/Slide-1-Slide6(1).png",
+            "src/assets/images/sales-deck/Slide-2-Slide7.png",
+            "src/assets/images/sales-deck/Slide-3-Slide11.png"
         ]
     },
     {
