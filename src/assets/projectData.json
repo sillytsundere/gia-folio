@@ -5,7 +5,18 @@
         "coverPhoto": "src/assets/images/sales-deck/Sales-Deck-Cover-Photo.png",
         "overview": "Enthought needed to create a standard presentation to use in sales conversations with new potential clients, as a part of an effort to standardize sales processes.",
         "type": "Corporate Presentation Design, Informational Design, Graphic Design",
-        "role": "Project Manager, Graphic Designer"
+        "role": "Project Manager, Graphic Designer",
+        "images": [
+            { "image": "src/assets/images/sales-deck/1-Sales-deck-sketch-1.png"},
+            {"image": "src/assets/images/sales-deck/2-Slide1.png"},
+            {"image": "src/assets/images/sales-deck/3-Slide6.png"},
+            {"image": "src/assets/images/sales-deck/4-Sales-deck-sketch-2.png"},
+            {"image": "src/assets/images/sales-deck/5-Slide4.png"},
+            {"image": "src/assets/images/sales-deck/6-Slide5.png"},
+            {"image": "src/assets/images/sales-deck/7-Sales-deck-sketch-3.png"},
+            {"image": "src/assets/images/sales-deck/8-Slide4(1).png",
+            "caption": "I came up with the idea for this slide and did the low fidelity sketches, but the final slide was designed by Killer Visual Strategies"}
+        ]
     },
     {
         "name": "Event Booth and Collateral Design",
@@ -14,8 +25,13 @@
         "overview": "The Materials Science team at Enthought wanted to showcase three new AI solutions at an upcoming trade show they were attending. I designed the booth display, brochures for each of the solutions, and banners for promotional emails, and social media posts.",
         "type": "Trade Show Booth Design, Brochure Design, Print Design, Social Media Banner Design",
         "role": "Graphic Designer",
-        "images": {
-            
-        }
+        "images": [
+            {"image": "src/assets/images/event-booth/SEMICON2021-Booth-1.jpg"},
+            {"image": "src/assets/images/event-booth/1448C4B0-A26C-40E0-8EDC-7AFE8FBD0C1A.jpeg"},
+            {"image": "src/assets/images/event-booth/SEMICON-brochure-collage.png"},
+            {"image": "src/assets/images/event-booth/3d-metrology-one-pager-2-2.jpg"},
+            {"image": "src/assets/images/event-booth/SEMICON-Taiwan-Poster-1.jpg"},
+            {"image": "src/assets/images/event-booth/SEMICON-Email.jpg"}
+        ]
     }
 ]
