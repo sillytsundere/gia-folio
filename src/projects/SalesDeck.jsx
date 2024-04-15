@@ -1,8 +1,6 @@
 import ProjectTitle from "../components/ProjectTitle";
 
 export default function SalesDeck({ projectData }) {
-  console.log("projectData", projectData);
-  console.log("projectData image", projectData.images[0].image);
   return (
     <div className="flex flex-col items-center">
       <ProjectTitle projectData={projectData} />
