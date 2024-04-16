@@ -1,7 +1,6 @@
 import React from 'react';
 import { Outlet, Link, useLocation } from "react-router-dom";
 import projectData from "../assets/projectData.json"
-// import "./Work.css";
 
 function ProjectLink({ url, name, coverPhoto }) {
     return (

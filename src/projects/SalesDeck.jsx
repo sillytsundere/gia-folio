@@ -17,12 +17,6 @@ function Slides({ projectData }) {
 
   return (
     <div className="w-full overflow-hidden">
-      {/* <div className="">
-      <img src={`../${slides[currentIndex]}`} alt={`Slide ${currentIndex}`} className="w-full bg-center bg-cover" />
-      </div> */}
-
-      {/* <div onClick={prevSlide}>Left Arrow</div>
-      <div onClick={nextSlide} className="">Right Arrow</div> */}
       <div className="flex transition ease-out duration-500"
       style={{transform: `translateX(-${current * 100}%)`}}
       >
