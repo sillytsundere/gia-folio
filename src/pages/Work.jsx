@@ -22,7 +22,7 @@ export default function Work() {
     const isWorkPage = location.pathname === '/work';
 
     return (
-        <main>
+        <main className="m-0">
             {isWorkPage ? (
                 <section className="section">
                 {projectData.map((project) => (

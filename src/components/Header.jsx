@@ -6,10 +6,12 @@ export default function Header() {
 
   const isWorkPage = location.pathname.startsWith("/work");
 
+  const isProjectPage = location.pathname.startsWith("/work/");
+
   return (
-    <nav className="flex flex-row justify-between items-center px-14 py-12 text-charcoal">
+    <nav className={`flex flex-row justify-between items-center text-charcoal p-[25px] ${isProjectPage ? "bg-lightGreen" : "bg-white"}`}>
       <div>
-        <Link to="/" className="text-lg">
+        <Link to="/" className={`text-[26px] ${isProjectPage ? "text-accDarkTeal" : "text-charcoal"}`}>
           Julia Pasquarella
         </Link>
       </div>

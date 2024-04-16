@@ -2,7 +2,7 @@ import ProjectTitle from "../components/ProjectTitle";
 
 export default function EventBooth({ projectData }) {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center bg-lightGreen">
       <ProjectTitle projectData={projectData} />
       <section>
         <img src={`../${projectData.images[0].image}`} />
