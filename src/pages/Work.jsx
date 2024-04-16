@@ -4,10 +4,10 @@ import projectData from "../assets/projectData.json"
 
 function ProjectLink({ url, name, coverPhoto }) {
     return (
-        <figure className="">
+        <figure className="aspect-square">
             <Link to={`/work/${url}`}>
-                <div className="">
-                    <img src={coverPhoto} alt={name} className="object-cover object-center aspect-square" />
+                <div className="w-full aspect-square">
+                    <img src={coverPhoto} alt={name} className="inset-0 w-full h-full object-cover object-center" />
                 </div>
                 <figcaption className="my-5">{name}</figcaption>
             </Link>
