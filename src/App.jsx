@@ -26,7 +26,7 @@ function App() {
   }, [location]);
 
   return (
-    <div>
+    <div className="min-h-screen">
       {!isResumePage && <Header />}
       <Outlet />
       {!isResumePage && <Footer />}
