@@ -3,9 +3,8 @@ import { useParams } from "react-router-dom";
 
 // import project data
 import projectData from "../assets/projectData.json";
-// import project pages/components
-import SalesDeck from "../projects/SalesDeck";
-import EventBooth from "../projects/EventBooth";
+// import project component and 404 page
+import SingleProject from "../components/SingleProject";
 import NotFoundPage from "./NotFoundPage";
 
 const ProjectPage = () => {
@@ -18,8 +17,8 @@ const ProjectPage = () => {
 
   // Map project names to their respective components
   const projectComponents = {
-    [projectData[0].url]: <SalesDeck projectData={projectData[0]} />,
-    [projectData[1].url]: <EventBooth projectData={projectData[1]} />,
+    [projectData[0].url]: <SingleProject projectData={projectData[0]} />,
+    [projectData[1].url]: <SingleProject projectData={projectData[1]} />,
     //Can add more and as needed
   };
 
