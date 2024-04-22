@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 change/commit 2
 
 sub feature-branch changes
+second commit changes
