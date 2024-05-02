@@ -6,6 +6,8 @@ export default function Header() {
 
   const isWorkPage = location.pathname.startsWith("/work");
 
+  const isArtPage = location.pathname === "/art";
+
   const isProjectPage = location.pathname.startsWith("/work/");
 
   return (
@@ -18,6 +20,9 @@ export default function Header() {
       <div className="flex flex-row items-center text-base">
         <Link to="/work" className={`me-7 ${isWorkPage ? "underline" : ""}`}>
           Work
+        </Link>
+        <Link to="/art" className={`me-7 ${isArtPage ? "underline" : ""}`}>
+          Art
         </Link>
         <Link to="/resume" target="_blank">
           Resume

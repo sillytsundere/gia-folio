@@ -7,6 +7,7 @@ import "./index.css";
 
 import Home from "./pages/Home.jsx";
 import Work from "./pages/Work.jsx";
+import Art from "./pages/Art.jsx";
 import ProjectPage from "./pages/ProjectPage.jsx";
 import Resume from "./pages/Resume.jsx";
 import NotFoundPage from "./pages/NotFoundPage";
@@ -30,6 +31,10 @@ const routes = [
             element: <ProjectPage />,
           }
         ]
+      },
+      {
+        path: "/art",
+        element: <Art />,
       },
       {
         path: "/resume",
